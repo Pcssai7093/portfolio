@@ -28,29 +28,57 @@ function Leftbar() {
             />
           </div>
           <div className={`${styles.name} lbName`}>
-            POTTI CHANDRA SEKHAR SAI
+            POTTI{" "}
+            <motion.span
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
+            >
+              CHANDRA
+            </motion.span>{" "}
+            <motion.span
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.5, delay: 1 }}
+            >
+              SEKHAR
+            </motion.span>{" "}
+            <motion.span
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.5, delay: 1.5 }}
+            >
+              SAI
+            </motion.span>{" "}
           </div>
-          <motion.div className={styles.link}>
-            <i className="fa-brands fa-linkedin"></i>
-            <a href="https://www.linkedin.com/in/potti-chandra-sekhar-sai-716987221/">
-              Chandra Sekhar
-            </a>
-          </motion.div>
           <motion.div
-            className={styles.link}
-
-            // className={styles.link}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 2 }}
+            className="links"
           >
-            <i className="fa-brands fa-github"></i>
-            <a href="https://github.com/Pcssai7093/">Pcssai7093</a>
-          </motion.div>
-          <motion.div className={styles.link}>
-            <i className="fa-regular fa-envelope"></i>
-            <a href="mailto:pcssai7093">pcssai7093@gmail.com</a>
-          </motion.div>
-          <motion.div className={styles.link}>
-            <i className=" fas fa-phone "></i>
-            <a href="tel:+917093692948">+917093692948</a>
+            <motion.div className={styles.link}>
+              <i className="fa-brands fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/potti-chandra-sekhar-sai-716987221/">
+                Chandra Sekhar
+              </a>
+            </motion.div>
+            <motion.div
+              className={styles.link}
+
+              // className={styles.link}
+            >
+              <i className="fa-brands fa-github"></i>
+              <a href="https://github.com/Pcssai7093/">Pcssai7093</a>
+            </motion.div>
+            <motion.div className={styles.link}>
+              <i className="fa-regular fa-envelope"></i>
+              <a href="mailto:pcssai7093">pcssai7093@gmail.com</a>
+            </motion.div>
+            <motion.div className={styles.link}>
+              <i className=" fas fa-phone "></i>
+              <a href="tel:+917093692948">+917093692948</a>
+            </motion.div>
           </motion.div>
         </motion.div>
         {/* <Skills /> */}
