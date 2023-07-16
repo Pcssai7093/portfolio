@@ -2,10 +2,10 @@
     "profile_pic":"https://res.cloudinary.com/dgeg6il49/image/upload/v1679747788/mqatdoo0beoums7znncu.jpg",
     "skills":{
       "PROGRAMMING":[],
-      "LIBRARIES/FRAMEWORKS":[],
+      "LIBRARIES_FRAMEWORKS":[],
       "DATABASES":[],
-      "TOOLS/PLATFORMS":[],
-      "DEVOPS":[]
+      "TOOLS_PLATFORMS":[],
+      "OTHER":[]
     },
     "educations":[
       {
