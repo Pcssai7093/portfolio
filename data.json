@@ -2,67 +2,76 @@
     "profile_pic":"https://res.cloudinary.com/dgeg6il49/image/upload/v1679747788/mqatdoo0beoums7znncu.jpg",
     "skills":{
       "PROGRAMMING":["C","Python","Java","JavaScript","Sql","Shell","HTML","CSS"],
-      "LIBRARIES_FRAMEWORKS":[],
-      "DATABASES":[],
-      "TOOLS_PLATFORMS":[],
-      "OTHER":[]
+      "LIBRARIES_FRAMEWORKS":["NodeJs","React","Express","Framer-Motion"],
+      "DATABASES":["MySQL","MongoDB"],
+      "TOOLS_PLATFORMS":["Azure Web Service","Docker","Git","Aiven"],
+      "OTHER":["CI/CD","Version Control","Containerization"]
     },
     "educations":[
       {
-        "college":"",
-        "title":"",
-        "date":"",
-        "remarks":[]
+        "college":"INDIAN INSTITUTE OF INFORMATION TECHNOLOGY, SRICITY",
+        "title":"BACHELOR'S IN COMPUTER SCIENCE",
+        "date":"Aug 2020 - Present",
+        "remarks":["CGPA: 8.59 / 10"]
       },
       {
-        "college":"",
-        "title":"",
-        "date":"",
-        "remarks":[]
+        "college":"NARAYANA JUNIOR COLLEGE",
+        "title":"HIGHER SECONDARY SCHOOLING",
+        "date":"July 2018 - July 2020",
+        "remarks":["Marks: 964/1000"]
       }
     ],
     "projects":[
       {
-        "title":"",
-        "skills":"",
+        "title":"AMAZON DATA SCRAPPER",
+        "skills":"Python | pandas | HTML‑Parsing | Web Scraping",
         "remarks":[
-          
+          "This tool scrapes the product pages from Amazon using the search words given input to the program.",
+          "It extract the meaningful data related to the products from retrieved pages,load data as as Flat file into secondary memory."
         ]
       },
       {
-        "title":"",
-        "skills":"",
+        "title":"E-COMMERCE WEB APPLICATION",
+        "skills":"React | NodeJs | Express | MongoDB | HTML | Js | CSS",
         "remarks":[
-          
+          "Led a project of 5 member group to accomplish an end to end Full Stack Web Application.",
+          "This web application bridges the gap between freelancers and companies,individual people hiring for temporary job roles are projects.",
+          "My contribution in the project includes DataBase design with MongoDB, User Authorisation using web tokens, Real-time Chat functionality implementation between users using socket IO, API Design and development using NodeJS Middle-ware implementation and several front-end Pages development."
         ]
       },
       {
-        "title":"",
-        "skills":"",
+        "title":"PREDICTION OF TUBERCULOSIS DRUG RESISTANCE",
+        "skills":"Python | pandas | Data Preprocessing | Machine Learning",
         "remarks":[
-          
+          "Designed Machine learning models to predict the drug resistance of Tuberculosis",
+          "The machine learning model is trained using the gene variations occurs in the tuberculosis isolates which results in drug resistance.",
+          "Accomplished an F1 score of 0.95 which signifies the good performance of machine learning model to reduce false positives and False negatives."
         ]
       },
       {
-        "title":"",
-        "skills":"",
+        "title":"SPELLING CORRECTION TOOL",
+        "skills":"Python | data Preprocessing",
         "remarks":[
-          
+          "Python tool to correct spelling errors",
+          "This tool uses a course search technique:N-gram indexing to identify spelling errors in the words."
         ]
       }
     ],
     "experience":[
       {
-        "title":"",
-        "company":"",
-        "date":"",
-        "remarks":[]
+        "title":"TECHNICAL CONTENT DEVELOPER |",
+        "company":"TUTORIALSPOINT",
+        "date":"Sep 2022 - Dec 2022",
+        "remarks":["Worked on Developing Technical Content on Haskell Programming Language.",
+        "Published technical Content on Haskell exploring the functional programming way of solving problems.",
+        "Generated over 20,000 article views through compelling content."
+      ]
       },
       {
-        "title":"",
-        "company":"",
-        "date":"",
-        "remarks":[]
+        "title":"FreeLance Technical Content Writer",
+        "company":"GeeksForGeeks",
+        "date":"July 2022 - Aug 2022",
+        "remarks":[""]
       }
     ]
   }

@@ -4,22 +4,22 @@ import Profile from "./Profile";
 import Skills from "./Skills";
 import { motion } from "framer-motion";
 import axios from "axios";
-function Leftbar() {
-  const [data, setData] = useState(null);
+function Leftbar({ data }) {
+  // const [data, setData] = useState(null);
 
-  useEffect(() => {
-    axios
-      .get(
-        "https://raw.githubusercontent.com/Pcssai7093/portfolio/master/data.json"
-      )
-      .then((result) => {
-        console.log(result.data);
-        setData((p) => result.data);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, []);
+  // useEffect(() => {
+  //   axios
+  //     .get(
+  //       "https://raw.githubusercontent.com/Pcssai7093/portfolio/master/data.json"
+  //     )
+  //     .then((result) => {
+  //       console.log(result.data);
+  //       setData((p) => result.data);
+  //     })
+  //     .catch((err) => {
+  //       console.log(err);
+  //     });
+  // }, []);
   return (
     <div>
       {/* {window.innerWidth < 1000 && "it less than 1000"} */}
