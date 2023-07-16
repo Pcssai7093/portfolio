@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./rightbar.module.css";
 import SectionItem from "./SectionItem";
 import { motion } from "framer-motion";
-function Rightbar() {
+function Rightbar({ data }) {
   return (
     <motion.div
       initial={{ opacity: window.innerWidth > 1000 && 0 }}
@@ -12,7 +12,15 @@ function Rightbar() {
       <div className={styles.box}>
         <div className={styles.education}>
           <div className={styles.heading}>EDUCATION</div>
-          <SectionItem
+          {data.educations.map((d) => (
+            <SectionItem
+              title={d.title}
+              companyCollege={d.college}
+              date={d.date}
+              infoPoints={d.remarks}
+            />
+          ))}
+          {/* <SectionItem
             title="Bachelor’s in Computer Science and Engineering"
             companyCollege="Indian Institute of Information and Technology, Sricity"
             date="2020-2024"
@@ -23,11 +31,18 @@ function Rightbar() {
             companyCollege="Narayana Junior College"
             date="2018-2020"
             infoPoints={["Percentage : 96.4"]}
-          />
+          /> */}
         </div>
         <div className={styles.projects}>
           <div className={styles.heading}>PROJECTS</div>
-          <SectionItem
+          {data.projects.map((d) => (
+            <SectionItem
+              title={d.title}
+              companyCollege={d.skills}
+              infoPoints={d.remarks}
+            />
+          ))}
+          {/* <SectionItem
             title="Amazon Data Scrapping Tool"
             companyCollege="Python | Web-Scrapping | Html-Parsing"
             infoPoints={[
@@ -59,11 +74,19 @@ function Rightbar() {
               " Lorem ipsum dolor, sit amet c autem.",
               "a atque voluptate id tenetur, quis offfugiat perspiciatis vero repudiandae.",
             ]}
-          />
+          /> */}
         </div>
         <div className={styles.experience}>
           <div className={styles.heading}>EXPERIENCE</div>
-          <SectionItem
+          {data.experience.map((d) => (
+            <SectionItem
+              title={d.title}
+              companyCollege={d.company}
+              date={d.date}
+              infoPoints={d.remarks}
+            />
+          ))}
+          {/* <SectionItem
             title="Technical Content Developer"
             companyCollege="TutorialsPoint"
             date="Aug 2022 - Dec 2022"
@@ -80,7 +103,7 @@ function Rightbar() {
               " Lorem ipsum dolor, sit amet c autem.",
               "a atque voluptate id tenetur, quis offfugiat perspiciatis vero repudiandae.",
             ]}
-          />
+          /> */}
         </div>
       </div>
     </motion.div>

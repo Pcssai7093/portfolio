@@ -22,6 +22,7 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    border:7px solid #1d76e2;
     /* filter: grayscale(100%) */
 }
 

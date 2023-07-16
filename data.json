@@ -9,21 +9,21 @@
     },
     "educations":[
       {
-        "college":"INDIAN INSTITUTE OF INFORMATION TECHNOLOGY, SRICITY",
-        "title":"BACHELOR'S IN COMPUTER SCIENCE",
+        "college":"Indian Institute Of Information Technology, Sricity",
+        "title":"Bachelor's in Computer Science",
         "date":"Aug 2020 - Present",
-        "remarks":["CGPA: 8.59 / 10"]
+        "remarks":["CGPA: 8.59/10"]
       },
       {
-        "college":"NARAYANA JUNIOR COLLEGE",
-        "title":"HIGHER SECONDARY SCHOOLING",
+        "college":"Narayana Junior College",
+        "title":"Higher Secondary Schooling",
         "date":"July 2018 - July 2020",
         "remarks":["Marks: 964/1000"]
       }
     ],
     "projects":[
       {
-        "title":"AMAZON DATA SCRAPPER",
+        "title":"Amazon Data Scrapper",
         "skills":"Python | pandas | HTML‑Parsing | Web Scraping",
         "remarks":[
           "This tool scrapes the product pages from Amazon using the search words given input to the program.",
@@ -31,7 +31,7 @@
         ]
       },
       {
-        "title":"E-COMMERCE WEB APPLICATION",
+        "title":"FreeLancing Web Application",
         "skills":"React | NodeJs | Express | MongoDB | HTML | Js | CSS",
         "remarks":[
           "Led a project of 5 member group to accomplish an end to end Full Stack Web Application.",
@@ -40,7 +40,7 @@
         ]
       },
       {
-        "title":"PREDICTION OF TUBERCULOSIS DRUG RESISTANCE",
+        "title":"Prediction of Drug Resistance in Tuberculosis",
         "skills":"Python | pandas | Data Preprocessing | Machine Learning",
         "remarks":[
           "Designed Machine learning models to predict the drug resistance of Tuberculosis",
@@ -49,7 +49,7 @@
         ]
       },
       {
-        "title":"SPELLING CORRECTION TOOL",
+        "title":"Spelling Correction Tool",
         "skills":"Python | data Preprocessing",
         "remarks":[
           "Python tool to correct spelling errors",
@@ -59,8 +59,8 @@
     ],
     "experience":[
       {
-        "title":"TECHNICAL CONTENT DEVELOPER |",
-        "company":"TUTORIALSPOINT",
+        "title":"Technical Content Developer",
+        "company":"TutorialsPoint",
         "date":"Sep 2022 - Dec 2022",
         "remarks":["Worked on Developing Technical Content on Haskell Programming Language.",
         "Published technical Content on Haskell exploring the functional programming way of solving problems.",
