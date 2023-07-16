@@ -1,7 +1,7 @@
 {
     "profile_pic":"https://res.cloudinary.com/dgeg6il49/image/upload/v1679747788/mqatdoo0beoums7znncu.jpg",
     "skills":{
-      "PROGRAMMING":[],
+      "PROGRAMMING":["C","Python","Java","JavaScript","Sql","Shell","HTML","CSS"],
       "LIBRARIES_FRAMEWORKS":[],
       "DATABASES":[],
       "TOOLS_PLATFORMS":[],
