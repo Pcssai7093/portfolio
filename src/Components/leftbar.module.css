@@ -70,7 +70,7 @@
     font-weight: 500;
     text-align: left;
     margin-bottom: 5px;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .skillsList{
@@ -105,6 +105,6 @@
 @media screen and (max-width:1000px) {
     .box{
         width:85vw;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
   }

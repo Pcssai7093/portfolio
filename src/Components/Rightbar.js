@@ -10,29 +10,36 @@ function Rightbar({ data }) {
       transition={{ duration: 3, delay: 4 }}
     >
       <div className={styles.box}>
-        <div className={styles.education}>
-          <div className={styles.heading}>EDUCATION</div>
-          {data.educations.map((d) => (
+        <div className={styles.experience}>
+          <div className={styles.heading}>EXPERIENCE</div>
+          {data.experience.map((d) => (
             <SectionItem
               title={d.title}
-              companyCollege={d.college}
+              companyCollege={d.company}
               date={d.date}
               infoPoints={d.remarks}
             />
           ))}
           {/* <SectionItem
-            title="Bachelor’s in Computer Science and Engineering"
-            companyCollege="Indian Institute of Information and Technology, Sricity"
-            date="2020-2024"
-            infoPoints={["CGPA : 8.54"]}
+            title="Technical Content Developer"
+            companyCollege="TutorialsPoint"
+            date="Aug 2022 - Dec 2022"
+            infoPoints={[
+              " Lorem ipsum dolor, sit amet c autem.",
+              "a atque voluptate id tenetur, quis offfugiat perspiciatis vero repudiandae.",
+            ]}
           />
           <SectionItem
-            title="Higher Secondary School"
-            companyCollege="Narayana Junior College"
-            date="2018-2020"
-            infoPoints={["Percentage : 96.4"]}
+            title="Freelance Technical Content Developer"
+            companyCollege="Geeks For Geeks"
+            date="july 2022 - Aug 2022"
+            infoPoints={[
+              " Lorem ipsum dolor, sit amet c autem.",
+              "a atque voluptate id tenetur, quis offfugiat perspiciatis vero repudiandae.",
+            ]}
           /> */}
         </div>
+
         <div className={styles.projects}>
           <div className={styles.heading}>PROJECTS</div>
           {data.projects.map((d) => (
@@ -76,33 +83,27 @@ function Rightbar({ data }) {
             ]}
           /> */}
         </div>
-        <div className={styles.experience}>
-          <div className={styles.heading}>EXPERIENCE</div>
-          {data.experience.map((d) => (
+        <div className={styles.education}>
+          <div className={styles.heading}>EDUCATION</div>
+          {data.educations.map((d) => (
             <SectionItem
               title={d.title}
-              companyCollege={d.company}
+              companyCollege={d.college}
               date={d.date}
               infoPoints={d.remarks}
             />
           ))}
           {/* <SectionItem
-            title="Technical Content Developer"
-            companyCollege="TutorialsPoint"
-            date="Aug 2022 - Dec 2022"
-            infoPoints={[
-              " Lorem ipsum dolor, sit amet c autem.",
-              "a atque voluptate id tenetur, quis offfugiat perspiciatis vero repudiandae.",
-            ]}
+            title="Bachelor’s in Computer Science and Engineering"
+            companyCollege="Indian Institute of Information and Technology, Sricity"
+            date="2020-2024"
+            infoPoints={["CGPA : 8.54"]}
           />
           <SectionItem
-            title="Freelance Technical Content Developer"
-            companyCollege="Geeks For Geeks"
-            date="july 2022 - Aug 2022"
-            infoPoints={[
-              " Lorem ipsum dolor, sit amet c autem.",
-              "a atque voluptate id tenetur, quis offfugiat perspiciatis vero repudiandae.",
-            ]}
+            title="Higher Secondary School"
+            companyCollege="Narayana Junior College"
+            date="2018-2020"
+            infoPoints={["Percentage : 96.4"]}
           /> */}
         </div>
       </div>
